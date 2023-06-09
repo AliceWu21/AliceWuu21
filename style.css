@@ -1,0 +1,58 @@
+nav{
+    background-color: whitesmoke;
+    width: 10rem;
+    height: 100vh;
+    box-shadow: 10px 0 10px rgba(85, 82, 82, 0.342);
+    border-radius: 1.5ch;
+}
+body{
+    margin: 0;
+    background-color: bisque;
+}
+li{
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    line-height: 5rem;
+    list-style-type: none;
+}
+a{
+    text-decoration: none; 
+}
+.X{
+    padding-top: 2rem;
+    padding-left: 3.2rem;
+}
+.buttun{
+    color: rgb(49, 42, 42);
+    font-family: 'Noto Sans TC'
+}
+.buttun:hover{
+    background-color: rgb(55, 34, 16);
+    padding: 1rem 1rem;
+    color: aliceblue;
+    border-radius: 2ch;
+}
+.list{
+    padding-top: 2rem;
+}
+.row{
+    z-index: -1;
+    top: 6rem;
+    right: 15rem;
+    position: absolute;
+}
+.egg{
+    top: 11rem;
+    left: 50rem;
+    position: absolute;
+}
+.login{
+    left: 3.6rem;
+    bottom: 12rem;
+    position: absolute;
+}
+.logo{
+    
+    position: absolute;
+}
+

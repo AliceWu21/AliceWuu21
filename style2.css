@@ -1,0 +1,248 @@
+/* index */
+.header-area{
+    height: 100vh;
+    width: 10ch;
+    background-color: white;
+}
+.menu{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    position: absolute;
+}
+.noodle{
+    margin-top: 8rem;
+    margin-left: 20rem;
+    position: absolute;
+}
+.picture{
+    margin-left: 50rem;
+    position: absolute;
+    max-width: 600px;
+    height: auto;
+    z-index: -2147483648;
+}
+.picture{
+    animation: fadeOut 0.3s linear 0s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.round2{
+    margin-top: 25rem;
+    margin-left: 15rem;
+    position: absolute;
+}
+.round{
+    margin-top: 32.6rem;
+    margin-left: 20rem;
+    position: absolute;
+    animation: zoomIn 2s linear 0s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes zoomIn {
+    from {
+        transform: translate3d(0, 20%, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+.round3{
+    margin-top: 24.9rem;
+    margin-left: 13rem;
+    position: absolute;
+    animation: zoomIn 2s linear 0s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes zoomIn {
+    from {
+        transform: translate3d(0, 20%, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+.message{
+    margin-top: 38rem;
+    margin-left: 29rem;
+    position: absolute;
+}
+.arrow{
+    margin-top: 25rem;
+    margin-left: 29rem;
+    position: absolute;
+}
+.chefhat{
+    position:absolute;
+}
+/* about */
+nav{
+    background-color: whitesmoke;
+    width: 8.5rem;
+    height: 100vh;
+    box-shadow: 10px 0 10px rgba(85, 82, 82, 0.342);
+    border-radius: 1.5ch;
+}
+body{
+    margin: 0 0 0 0;
+    background-color: #ffffff;
+    z-index: -2;
+}
+li{
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    line-height: 5rem;
+    list-style-type: none;
+}
+a{
+    text-decoration: none; 
+}
+.X{
+    padding-top: 2rem;
+    padding-left: 3.2rem;
+}
+.buttun{
+    color: rgb(49, 42, 42);
+    font-family: 'Noto Sans TC'
+}
+.buttun:hover{
+    background-color: rgb(55, 34, 16);
+    padding: 1rem 1rem;
+    color: aliceblue;
+    border-radius: 2ch;
+}
+.list{
+    padding-top: 2rem;
+}
+.row{
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.login{
+    left: 3.6rem;
+    position: absolute;
+}
+.egg{
+    display: flex;
+    z-index: -2;
+    top: 100px;
+    left: 380px;
+    position: absolute;
+}
+.logo{
+    display: flex;
+    top: 5ch;
+    left: 30ch;
+    position: absolute;
+}
+.title-menu{
+    display: flex;
+    top: 5ch;
+    left: 75ch;
+    position: absolute;
+}
+.product-display-column{
+    display: flex;
+    top: 20ch;
+    left: 40ch;
+    position: absolute;
+}
+.recommended-today{
+    display: flex;
+    top: 40ch;
+    left: 50ch;
+    position: absolute;
+}
+
+.button {
+    padding: 21px 21px;
+    border: 5px solid #ffffff00;
+    border-radius: 100px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    top: 40ch;
+    left: 5ch;
+    position: absolute;
+}
+.category{
+    display: flex;
+    top: 28ch;
+    left: 66ch;
+    position: absolute;
+}
+.contact-information{
+    display: flex;
+    top: 55ch;
+    left: 36ch;
+    position: absolute;
+    animation: zoomIn 2s linear 0s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes zoomIn {
+    from {
+        transform: translate3d(0, 20%, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+.shade{
+    margin-left: 49.97rem;
+    position: absolute;
+    max-width: 600px;
+    height: auto;
+    z-index: -2147483647;
+}
+.shade{
+    animation: fadein 0.3s linear 0s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.latest-news{
+    margin-left: 49.9rem;
+    margin-top: 5rem;
+    position: absolute;
+    max-width: 600px;
+    height: auto;
+    z-index: -2147483646;
+}
+.latest-news{
+    animation: leftIn 1s linear 0s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes leftIn {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
